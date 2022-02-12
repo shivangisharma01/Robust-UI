@@ -13,6 +13,6 @@ Navigation
 Toast/Notify/Snackbar
 Simplified Grid
 Navigation
-Submenus (do later)
-Hamburger/Drawer (do later)
+Submenus
+Hamburger/Drawer
 Slider
