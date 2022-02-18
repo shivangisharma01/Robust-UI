@@ -1,0 +1,30 @@
+@import url("../css/navbar.css");
+@import url("../css/slidebar.css");
+@import url("../css/components.css");
+@import url("../css/footer.css");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,200&display=swap");
+/* font-family: 'Source Sans Pro', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+/* font-family: 'Open Sans', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;600;700;800&display=swap");
+/* font-family: 'Roboto Slab', serif; */
+
+:root {
+  --primary-color: #1685ec;
+  --default-color: #1c1c20;
+  --error-color: #cc1919;
+  --success-color: #209e4e;
+  --warning-color: #ee751efa;
+  --color-white: #fffbff;
+  --nav-text-color: #2c2b2c;
+
+  --light-pink: #fcebf4;
+  --accent-pink: #ffd4e2;
+  --active-border: #f7588d;
+  --divider-color: #f8bbd0;
+  --list-hover: #f38cae;
+  --color-main: #ec2c73;
+
+  --bold-text: 800;
+  --semi-bold-text: 600;
+}

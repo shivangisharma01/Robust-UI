@@ -1,0 +1,33 @@
+.footer {
+    background-color: var(--color-main);
+    text-align: center;
+    color: var(--default-color);
+    padding: 1.9rem 1rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    font-weight: var(--bold-text);
+  }
+  
+  .footer-list {
+    margin-top: 1rem;
+  }
+  
+  .footer ul {
+    padding-inline-start: 0px;
+  }
+  
+  .footer ul li {
+    text-decoration: none;
+  }
+  
+  .links {
+    text-decoration: none;
+    padding: 0.5rem;
+    color: var(--default-color);
+  }
+  
+  .list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+  }
+  
