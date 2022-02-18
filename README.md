@@ -1,18 +1,12 @@
 # Robust-UI
-This is a component library made to ease the work & to complete different projects using various components which are:-
+This component library is made to ease the work & to complete different projects using various components in this cl which are:-
 Avatar
 Alert
 Badge
 Button
 Card
-responsive & round image
+Image
 Input
-textbox
-Lists- Spaced and Stacked
-Navigation
-Toast/Notify/Snackbar
-Simplified Grid
-Navigation
-Submenus
-Hamburger/Drawer
+List
 Slider
+Toast
