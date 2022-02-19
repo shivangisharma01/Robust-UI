@@ -1,0 +1,75 @@
+.btn {
+    font-weight: 600;
+    background: var(--default-color);
+    color: var(--color-white);
+    min-width: 6rem;
+    width: max-content;
+    padding: .8rem 1rem;
+    border-radius: 1px;
+    border: transparent;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin: 10px;
+}
+
+.float-btn {
+    background: var(--color-main);
+    color: var(--color-white);
+    width: max-content;
+    padding: .8rem 1rem;
+    border-radius: 60% 60%;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin: 10px;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--color-white);
+}
+
+.btn-primary:hover {
+border-radius: 0.5rem solid var(--color-white);
+    transform: scale(1.1);
+    transition: all .2s ease;
+}
+
+
+.btn-secondary {
+    background-color: var(--warning-color);
+    color: var(--color-white);
+}
+
+.btn-secondary:hover {
+    transform: scale(1.1);
+    transition: all .2s ease;
+}
+
+.btn-error {
+    background-color: var(--error-color);
+}
+
+.btn-error:hover {
+    transform: scale(1.1);
+    transition: all .2s ease;
+}
+
+.btn-success {
+    background-color: var(--success-color);
+}
+
+.link-btn {
+    background-color: var(--hold-color);
+    color: var(--color-white);
+    
+}
+
+.link-btn a {
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.link-btn a:hover {
+text-decoration: underline;
+}
