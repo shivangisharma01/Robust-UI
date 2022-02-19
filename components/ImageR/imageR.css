@@ -1,0 +1,21 @@
+.square-image {
+    height: 9rem;
+    width: 9rem;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.round-image {
+    height: 9.5rem;
+    width: 9.5rem;
+    border-radius: 50%;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.responsive-image {
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+    
+}
