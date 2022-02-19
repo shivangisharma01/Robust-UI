@@ -1,0 +1,8 @@
+.ordered-list {
+    font-weight: var(--semi-bold-text);
+}
+
+.unordered-list{
+    color: var(--hold-color);
+    font-weight: var(--semi-bold-text);
+}
