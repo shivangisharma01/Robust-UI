@@ -1,5 +1,5 @@
 .avatar-badge {
-    border-radius: 50%;
+    border-radius:var(--border-rd-circle);
     width: 4rem;
     height: 4rem;
     margin: 0 10px;

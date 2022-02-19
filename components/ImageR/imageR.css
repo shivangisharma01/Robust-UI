@@ -8,7 +8,7 @@
 .round-image {
     height: 9.5rem;
     width: 9.5rem;
-    border-radius: 50%;
+    border-radius:  var(--border-rd-circle);
     margin: 10px;
     object-fit: cover;
 }
