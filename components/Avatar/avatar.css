@@ -5,17 +5,17 @@
     margin: 0 10px;
 }
 
-.sm {
+.avatar-sm {
     width: 2.5rem;
     height: 2.5rem;
 }
 
-.md {
+.avatar-md {
     width: 4rem;
     height: 4rem;
 }
 
-.lg {
+.avatar-lg {
     width: 6rem;
     height: 6rem;
 }
