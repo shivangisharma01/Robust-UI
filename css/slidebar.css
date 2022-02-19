@@ -1,0 +1,52 @@
+.sidebar {
+    font-family: "Roboto", sans-serif;
+    flex: 0 0 240px;
+    margin-right: 1rem;
+  }
+  
+  .list-heading {
+    padding: 1rem;
+    font-weight: 500;
+    border-bottom: 1px solid var(--active-border);
+    margin-bottom: 0.5rem;
+  }
+  
+  .list-heading a {
+    text-decoration: none;
+    color: var(--default-color);
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  
+  .list-subheading .active {
+    font-weight: 700;
+    border-bottom: 1.4px solid var(--list-hover);
+    border-radius: 4px;
+    color: var(--default-color);
+    background-color: var(--accent-pink);
+    padding: 5px;
+  }
+  
+  .list-subheading li {
+    font-size: 13px;
+    list-style: none;
+    padding: 1rem 1rem;
+    font-weight: 400;
+  }
+  
+  .list-subheading li a:hover {
+    cursor: pointer;
+    color: var(--active-color);
+    background-color: var(--accent-pink);
+    padding: 4.6px;
+    border-radius: 8px;
+  }
+  
+  .list-subheading a {
+    display: flex;
+    align-items: center;
+    color: var(--default-color);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
