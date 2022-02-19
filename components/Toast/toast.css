@@ -1,11 +1,11 @@
 .toast{
-    padding: 1rem;
-    font-weight: 500;
-    font-size: 1rem;
-    width:20rem ;
-    background-color: var(--hold-color);
+    padding: 0.8rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+    width:40rem ;
+    background-color: var(--error-color);
     text-align: center;
-    border-radius: 5px;
-    border: 2px solid var(  --default-color);
-    color: var(--away-color) ;
+    border-radius: 0.25rem;
+    border: 1.8px solid var(  --default-color);
+    color: var(--color-white) ;
 }
