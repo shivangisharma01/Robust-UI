@@ -1,0 +1,26 @@
+
+   
+.navbar {
+    background-color: hsl(var(--primary));
+    display: block;
+    padding: 0.5rem;
+    color: #000;
+  }
+  
+  .nav-main {
+      font-size: 3rem;
+  }
+  
+  .nav-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+  }
+  
+  .nav-pill {
+    padding: 0 0.5rem;
+    display: inline-block;
+    font-weight: 400;
+  }
