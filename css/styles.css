@@ -2,6 +2,18 @@
 @import url("../css/sidebar.css");
 @import url("../css/components.css");
 @import url("../css/footer.css");
+@import url('/Components/alert/alert.css');
+@import url('/Components/Avatar/avatar.css');
+@import url('/Components/Badge/badge.css');
+@import url('/Components/Button/button.css');
+@import url('/Components/Card/card.css');
+@import url('/Components/Grid/grid.css');
+@import url('/Components/ImageR/imageR.css');
+@import url('/Components/Input/input.css');
+@import url('/Components/Lists/lists.css');
+@import url('/Components/Navigation/navigation..css');
+@import url('/Components/Rating/rating.css');
+@import url('/Components/Toast/toast.css');
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,200&display=swap");
 /* font-family: 'Source Sans Pro', sans-serif; */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");

@@ -1,0 +1,159 @@
+.card {
+    height: max-content;
+    width: 19rem;
+    background-color: var(--color-white);
+    border-radius: 2px;
+    box-shadow: var(--default-color) 0px 2px 5px 1px;
+}
+
+.horizontal-card  {
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    width: 30rem;
+    background-color: var(--color-white);
+    border-radius: 2px;
+    box-shadow: var(--default-color) 0px 4px 7px 2px;
+}
+
+.card-head {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.hz-card-image {
+    border-radius: 2px 2px 0 0;
+    width: 10rem;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-image {
+    border-radius: 2px 2px 0 0;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1rem 1rem;
+}
+
+.card-text {
+    font-size: .9rem;
+    color: var(--default-color);
+    padding: 1rem;
+}
+
+
+.card-price {
+    width: 20rem;
+    box-shadow: none;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    position: relative;
+}
+
+.card-badge {
+    position: absolute;
+    top: 20px;
+    left: -1px;
+    background-color: var(--primary-color);
+    color: var(--color-white);
+    font-weight: 600;
+    font-size: 1rem;
+    padding: .2rem .5rem;
+    transition: all .2s ease-in-out;
+}
+
+.card-dismiss {
+    position: absolute;
+    top: 0px;
+    right: -1px;
+    background-color: var(--default-color);
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: .3rem .6rem;
+    transition: all .2s ease-in-out;
+    border-bottom-left-radius: 30%;
+}
+
+.image-product {
+    position: relative;
+    text-align: center;
+    height: 21rem;
+    overflow: hidden;
+    object-position: bottom;
+
+}
+
+.image-product img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.card-price .card-title {
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+}
+
+.card-price .card-text {
+    padding: 0 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #444444;
+    /* text-overflow: ellipsis; */
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.all-price {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+}
+
+.price-after {
+    font-weight: 600;
+    padding-right: 5px;
+}
+
+.price-before {
+    font-weight: 400;
+    text-decoration: line-through;
+    padding-right: 5px;
+    opacity: .7;
+}
+
+.discount {
+    color: var(--warning-color)
+}
+
+.card-overlay {
+    align-items: center;
+    background-color: var(--overlay-color);
+    display: flex;
+    height: 29rem;
+    justify-content: center;
+    position: absolute;
+    width: 19rem;
+    opacity: 70%;
+   
+  }
+
+  .card-overlay-text {
+    background-color: var(--primary-color);
+    color: var(--color-white);
+    font-size: 1rem;
+    padding:10px;
+  }
