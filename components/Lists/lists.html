@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="lists.css">
     <link rel="stylesheet" href="/css/styles.css">
     <script src="js/fontawesomepro.js"></script>
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css">
 
-    <title>Robust UI | Input </title>
+    <title>Robust UI | Lists</title>
 </head>
 
 <body>
@@ -70,25 +70,36 @@
                             </a>
                         </li>
                         <li>
+                            <a href="/Components/Grid/grid.html">
+                                Grid
+                            </a>
+                        </li>
+                        <li>
                             <a href="/Components/ImageR/imageR.html">
                                 Image
                             </a>
                         </li>
                         <li>
-                            <a class="active" href="#">
+                            <a  href="/components/Input/input.html">
                                 Input
                             </a>
                         </li>
                         <li>
-                            <a href="/Components/Lists/lists.html">
+                            <a class="active" href="#">
                                 List
                             </a>
                         </li>
                         <li>
-                            <a href="/Components/Slidebar/slidebar.html">
-                                Slider
+                            <a href="/Components/Navigation/Navigation.html">
+                                Navigation
                             </a>
                         </li>
+                        <li>
+                            <a  href="/components/Rating/rating.html">
+                                Rating
+                            </a>
+                        </li>
+                       
                         <li>
                             <a href="/Components/Toast/toast.html">
                                 Toast
@@ -101,80 +112,140 @@
 
             <section class="main-content-box">
                 <div class="content-heading">
-                    Input
+                    Lists
                 </div>
                 <div class="divider-space"></div>
                 <div class="content-subheading">
-                    The input element is used to present users with an interactive control for entering data.
+                    Lists are used to specify lists of information. All lists may contain one or more list elements.
+                    There are four different types of HTML lists: Ordered List,Unordered List,Description List and
+                    Nested List.
                 </div>
 
                 <div class="divider-space"></div>
                 <div class="content-header">
-                    Input Field
+                    Ordered List
                 </div>
 
                 <div class="content-subheading">
-                    The Input fields are usually made with a label withal the actual input field for telling the role of
-                    it.
+                    In the ordered lists all the list items are marked with numbers by default. It is known as numbered list also. The ordered list starts with ol tag.
                 </div>
 
                 <div class="example-content ">
-                    <div class="input-field ">
-                        <label>UserName <span class="mandatory-field">*</span></label>
-
-                        <input type="text" class="input-basic">
+                    <div class="ordered-list">
+                        <ol >  
+                            <li>Car</li>  
+                            <li>Sports Bike</li>  
+                            <li>Rocket</li>  
+                             
+                           </ol>  
                     </div>
 
-                    <div class="input-field ">
-                        <label>Password<span class="mandatory-field">*</span></label>
-                        <input type="password" class="input-basic">
-                    </div>
-
-                    <div class="input-field"> <button class="btn-login">logIn</button></div>
                 </div>
 
 
-                <iframe src="https://carbon.now.sh/embed/HST69omYePRwyp11caCt"
+                <iframe src="https://carbon.now.sh/embed/jfEd2zob5okmt7J5Y2AP"
                     style="width: 50rem;margin-bottom: 2.1rem; min-height: 20rem; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
-                
+
                 <div class="divider-space"></div>
                 <div class="content-header">
-                    Input Field wiith Validation Style
+                    Unordered List
                 </div>
 
                 <div class="content-subheading">
-                    The Input fields with validation style are usually used to give the message regarding the data entered by the user.
-                    
+                    In Unordered list all the list items are marked with bullets, you can also change the bullets style with the help of type attribute. It is also known as bulleted list also. The Unordered list starts with ul tag.
                 </div>
 
                 <div class="example-content ">
-                    <div class="input-field ">
-                        <label>UserName <span class="mandatory-field">*</span></label>
-
-                        <input type="text" class="input-error">
-                        <div class="error-message">
-                            <i class="fa-solid fa-triangle-exclamation"></i> UserName should not contain special chracters!
-                        </div>
+                    <div class=" unordered-list">
+                        <ul >  
+                            <li type="disc">Car</li>  
+                            <li type="square">Sports Bike</li>  
+                            <li  type="circle">Rocket</li>  
+                             
+                           </ul>  
                     </div>
 
-                    <div class="input-field ">
-                        <label>Password<span class="mandatory-field">*</span></label>
-                        <input type="password" class="input-success">
-                        <div class="success-message">
-                            <i class="fa-solid fa-circle-check"></i> Password Created!
-                        </div>
-                    </div>
-
-                    <div class="input-field"> <button class="btn-login">logIn</button></div>
                 </div>
 
 
-                <iframe src="https://carbon.now.sh/embed/btB88z704n8mngOTo9IX"
+                <iframe src="https://carbon.now.sh/embed/DtRbhzrn0l69nQa1cAgg"
                     style="width: 50rem;margin-bottom: 2.1rem; min-height: 20rem; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
+
+                <div class="divider-space"></div>
+                <div class="content-header">
+                    Description  List
+                </div>
+
+                <div class="content-subheading">
+                    Description  list it is also known as definition list where entries are listed like a dictionary or encyclopedia.
+                    Description  list contains following three tags:
+                  1  dl tag- defines the start of the list.
+                      2  dt tag- defines a term.
+                      3  dd tag- defines the term definition (description).
+                </div>
+
+                <div class="example-content ">
+                    <div class="description-list">
+                        <dl>  
+                            <dt>Aries</dt>  
+                            <dd>-Birthday month March 21 - April 20.</dd>  
+                            <dt>Pisces</dt>  
+                            <dd>-Birthday month February 19 - March 20.</dd>  
+                           <dt>Sagittarius</dt>  
+                           <dd>-Birthday month November 23 - December 21.</dd>  
+                        </dl>
+                    </div>
+
+                </div>
+
+
+                <iframe src="https://carbon.now.sh/embed/XCF3Mn1Wozs3t5i8IxfJ"
+                    style="width: 50rem;margin-bottom: 2.1rem; min-height: 20rem; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <div class="divider-space"></div>
+                <div class="content-header">
+                    Nested List
+                </div>
+
+                <div class="content-subheading">
+                    A list within another list is termed as nested list. You can add any list in one-another, here is the example of unordered list within the ordered list. 
+                </div>
+
+                <div class="example-content ">
+                    <div class="nested-list">
+                        <ol >  
+                            <li>Shopping list</li>
+                            <ul>
+                            <li>Mlik</li>
+                            <li>Cheese</li>
+                            <li>Chocolate</li>  
+                        </ul>
+
+                            <li>Horoscope Names from February-May</li>  
+                            <ul>
+                            <li>Aquarius</li>
+                            <li>Pisces</li>
+                            <li>Aries</li>
+                            <li>Gemini</li>
+                            </ul>
+                             
+                           </ol>  
+                    </div>
+
+                </div>
+
+
+                <iframe src="https://carbon.now.sh/embed/1utQ8EGlwnKtW7CbkUfY"
+                    style="width: 50rem;margin-bottom: 2.1rem; min-height: 20rem; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
             </section>
         </main>
     </div>
