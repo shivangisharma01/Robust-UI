@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="toast.css">
+    <link rel="stylesheet" href="rating.css">
     <link rel="stylesheet" href="/css/styles.css">
     <script src="js/fontawesomepro.js"></script>
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css">
@@ -17,7 +17,7 @@
     <header>
         <nav>
             <div class="nav-header">
-                <a href="#"> Robust UI <i class="fa-regular fa-rocket-launch"></i> </a>
+                <a href="#"> Robust UI | Rating<i class="fa-regular fa-rocket-launch"></i> </a>
             </div>
 
             <ul class="navbar-pills">
@@ -95,13 +95,13 @@
                             </a>
                         </li>
                         <li>
-                            <a  href="/components/Rating/rating.html">
+                            <a class="active" href="#">
                                 Rating
                             </a>
                         </li>
                        
                         <li>
-                            <a class="active" href="#">
+                            <a href="/Components/Toast/toast.html">
                                 Toast
                             </a>
                         </li>
@@ -112,27 +112,57 @@
 
             <section class="main-content-box">
                 <div class="content-heading">
-                    Toast
+                    Rating
                 </div>
                 <div class="divider-space"></div>
                 <div class="content-subheading">
-                    Toasts are lightweight notifications designed to mimic the push notifications that have been
-                    popularized by mobile and desktop operating systems. It is usually
-                    displayed at the bottom of the screen.
+                    Rating is used to get the fedback from users. In this Users rate your app/product on a scale of one
+                    to five stars.
+                </div>
+
+                <div class="divider-space"></div>
+                <div class="content-header">
+                    User Rating
+                </div>
+
+                <div class="content-subheading">
+                    The users gives rating from one to five stars according to the services provided.
                 </div>
 
                 <div class="example-content ">
 
-                    <div class="toast">
-                        <i class="fa-solid fa-circle-exclamation"></i> Error occured while uploading
+                    <div class="rating">
+                        User rating
+                        <div class="user-rating">
+                            <span class="checked">
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span class="checked">
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span class="checked">
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span class="checked">
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span class="unchecked">
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <p class="overall-rating"> 4 rating based on 12 users feedback.</p>
+                        </div>
+                       
                     </div>
+
 
                 </div>
 
-                <iframe src="https://carbon.now.sh/embed/nMn8RPbYPDfootGmEF5E"
+
+                <iframe src="https://carbon.now.sh/embed/J3DXJ2Kc7ozHN0WqVt1e"
                     style="width: 50rem;margin-bottom: 2.1rem; min-height: 20rem; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
+
 
             </section>
         </main>
