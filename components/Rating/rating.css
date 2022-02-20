@@ -1,0 +1,10 @@
+.user-rating .checked {
+    color: var( --away-color);
+
+}
+.user-rating .unchecked:hover {
+color: var(--away-color);
+}
+.overall-rating {
+    font-weight: 100;
+}
