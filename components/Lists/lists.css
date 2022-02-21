@@ -6,3 +6,10 @@
     color: var(--hold-color);
     font-weight: var(--semi-bold-text);
 }
+
+ .stacked-list{
+    display: flex;
+    gap: 4rem;
+    flex-direction: row;
+}
+
