@@ -1,6 +1,6 @@
 ## Get Started
 
-To start using the components in your project, you can add the below `<link>` inside your `<head>` section of your page. Make sure to keep this as your first CSS import, if you would be using your own custom CSS classes.
+To start using the components in your project, you can add the below `<link>` inside the `<head>` section of your page. Make sure to keep this as your first CSS import, to avoid overriding your own css.
 
 ```html
 <link 
