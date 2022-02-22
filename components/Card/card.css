@@ -136,7 +136,7 @@
 }
 
 .discount {
-    color: var(--warning-color)
+    color: var(--error-color)
 }
 
 .card-overlay {
