@@ -1,0 +1,18 @@
+.slider-bar {
+background-color: var(--error-color);
+}
+
+.input-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.text-weight{
+    font-weight: var(--semi-bold-text);
+}
+
+.hide {
+    display: none;
+  }
