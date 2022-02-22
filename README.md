@@ -48,7 +48,7 @@ Types:
 * Solid Alert
 * Alert with icon
 
-<hr />
+----
 
 ### Avatar
 
